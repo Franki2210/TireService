@@ -34,9 +34,4 @@ public class TiresController {
         return tireService.getAll();
     }
 
-    /*@ExceptionHandler(ServiceException.class)
-    public ResponseEntity<String> handleException(ServiceException e) {
-        return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
-    }*/
-
 }
